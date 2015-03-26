@@ -1,79 +1,183 @@
+body{
+	background-color: #242424;
+
+}
 .container{
 	width: 1000px;
-	margin: 0 auto;
+	margin:0 auto;
+	padding: 10px 10px 10px 10px
 }
 
 header{
-	width: 1000px;
-}
-
-nav {
-	background-color: #3e7ca5;
-	padding: 20px;
-	margin-bottom: 5px; 
+	background-color:#DE6E0C;
+	width: 930px;
+	padding: 10px 10px 10px 10px;
+	text-align :center;
+	border:2px solid #000000;
 
 }
+h1{
+	padding: 10px 10px 10px 30px
 
-nav ul {
+}
+
+nav{
+	background-color: #DE6E0C;
+	border: 2px solid #000000;
+	width: 450px;
+	padding-right: 250px;
+    padding-left: 250px;
+}
+li {
+  display: list-item;
+  text-align: center;
+}
+nav li{
 	text-align: center;
-	padding: 0;
-	
+  	padding: 0;
 }
+nav ul li{
 
-nav ul li {
-	
+	text-align: center;
 	list-style-type: none;
-	display: inline;
-	margin:0 15px;
-
+  	display: inline;
+  	margin: 0 15px;
 }
 
-a:link {
-	text-decoration: none;
-	color: #fff;
-}
-a:visited {
-	color: #000;
-}
-
-a :hover {
-	color: #999;
-}
-
-a :active {
-	color: #CC3300;
-}
-
-.top {
+.welcome{
+	background-color: #DE6E0C ;
+	text-align: center;
 	border: 2px solid #000000;
-	width: 350px;
-	height: 500px;
-	float: left;
+	margin: 25px 25px 25px 160px;
+	width:350px ;
+	height:350px;
+	float:left;
 	padding: 10px;
-	margin-bottom: 10px;
+
 }
 
-.bottom {
+.welcome h1{
+	width: 350px;
+	padding: 10px 10px 10px 10px;
+}
+
+.contact{
+	background-color: #DE6E0C ;
+	text-align: center;
 	border: 2px solid #000000;
+	margin:25px 210px 25px 25px ;
+	width:350px ;
+	height:350px;
+	float:right;
+	padding: 10px;
+
+}
+
+.contact h1{
 	width: 350px;
-	height: 200px;
-	float: left;
-	padding: 10px;
+	padding: 10px 10px 10px 10px;	
 }
 
-aside {
-	width: 300px;
-	height: 700px;
-	background-color: #3e7ca5;
-	float: right;
-	padding: 10px;
-}
-
-footer {
+footer{
+	text-align: center;
 	clear: both;
 	padding: 10px;
+	background-color:#DE6E0C ;
+	line-height: 2; 
+	margin-top: 35px; 
 }
 
-p {
-	text-align: center;
+/*=========index=========*/
+/*=======================*/
+}.semester-2 p{
+	width: 320px;
+	height: 170px;
+	padding:10px;
+  	margin-left: 190px;
+  	margin-right: 210px;
+  	border: 2px;
+  	background-color: #DE6E0C;
+  	margin-bottom: 16px;
+  }
+.semester-2 h1{
+	font-family: 'Sintony', sans-serif;
+  	font-weight: 700;
+  	font-size: 16px;
+  	line-height: 32px;
+  	height: 50px;
+  	padding: 10px ;
+  	margin-left: 165px;
+  	margin-right: 210px;
+  	background-color: #DE6E0C;
+  	border: solid 2px;
+  	margin-bottom: 0;}
+
+.semester-2 h2{
+	font-family: 'Sintony', sans-serif;
+  	font-weight: 700;
+  	font-size: 16px;
+  	line-height: 32px;
+  	padding: 10px ;
+  	margin-left: 165px;
+  	margin-right: 210px;
+  	background-color: #DE6E0C;
+  	border: solid 1px;
+  	margin-top: 0;
+  	text-align: center;
 }
+.semester-2 p span {
+	font-family: 'Sintony', sans-serif;
+  	font-weight: 700;
+  	font-size: 16px;
+  	line-height: 32px;
+}
+
+.semester-2section1 p {
+	width: 320px;
+	height: 170px;
+	padding:10px;
+  	margin-left: 70px;  	
+  	margin-right: 150px;
+  	background-color: #DE6E0C;
+  	/*margin-bottom: 16px;*/
+  	border: 2px solid black;
+  	float: left;
+}
+.semester-2section2 p{
+	width: 320px;
+	height: 170px;
+	padding:10px;
+  	/*margin-left: 190px;
+  	margin-right: 210px;*/
+  	background-color: #DE6E0C;
+  	/*margin-bottom: 16px;*/
+  	border: 2px solid black;
+  	float: left;
+}
+
+.semester-2section3 p{
+	width: 320px;
+	height: 170px;
+	padding:10px;
+  	margin-left: 70px;
+  	margin-right: 150px;
+  	background-color: #DE6E0C;
+  	/*margin-bottom: 16px;*/
+   	border: 2px solid black;
+   	float: left;
+}
+
+
+.semester-2section4 p{
+	width: 320px;
+	height: 170px;
+	padding:10px;
+  	/*margin-left: 190px;*/
+/*  	margin-right: 210px;*/
+  	background-color: #DE6E0C;
+  	/*margin-bottom: 16px;*/
+	border: 2px solid black;
+	float: left;
+}
+/*=========english 1p=========*/
+/*============================*/
